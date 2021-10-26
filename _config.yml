@@ -2,7 +2,7 @@ title: "Easier"
 email: mail@buteasier.com
 timezone: UTC
 # This has to be the path in the repo
-baseurl: "/ideal-octo-carnival"
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
