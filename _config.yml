@@ -1,0 +1,38 @@
+title: "Easier"
+email: mail@buteasier.com
+timezone: UTC
+# This has to be the path in the repo
+baseurl: "/congenial-funicular"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Steve
+paginate: 30
+locale: en_us
+lang: en_us
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Authors
+authors:
+  Steve:
+    name: Steve
+    display_name: Steve
+    avatar: 'assets/images/steve.png'
+    email: steve@buteasier.com
+    web: https://www.buteasier.com
+    twitter: https://www.twitter.com
+    description: "Co-founder of Easier."
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
